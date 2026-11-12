@@ -33,7 +33,7 @@
       <div class="header__actions">
         <a class="header__wa" href="https://wa.me/79375213165" target="_blank" rel="noopener" aria-label="WhatsApp"><i data-lucide="message-circle"></i></a>
         <a href="tel:+79375213165" class="header__phone">+7 (937) 521-31-65</a>
-        <a href="#inquiry" class="btn-lime">Вызвать мастера</a>
+        <a href="#inquiry" class="btn-accent">Вызвать мастера</a>
         <button class="burger" id="burger" aria-label="Открыть меню" aria-expanded="false">
           <span></span><span></span>
         </button>
@@ -67,7 +67,7 @@
     <!-- ================= STATS ================= -->
     <section class="stats" aria-label="Ключевые цифры">
       <div class="container stats__in">
-        <div class="stat reveal" style="--i:0"><b>24/7</b><span>Режим работы</span></div>
+        <div class="stat stat--hot reveal" style="--i:0"><b>24/7</b><span>Режим работы</span></div>
         <div class="stat reveal" style="--i:1"><b>5,0</b><span>78 оценок на Яндексе</span></div>
         <div class="stat reveal" style="--i:2"><b>100%</b><span>Положительных по ремонту</span></div>
         <div class="stat reveal" style="--i:3"><b>1500 ₽</b><span>Выезд по городу</span></div>
@@ -87,7 +87,7 @@
             <div class="srow"><span>Позвонил после полуночи</span><i></i><b>мастер согласился</b></div>
             <div class="srow"><span>Договорились через 1,5 часа</span><i></i><b>приехал вовремя</b></div>
             <div class="srow"><span>В процессе работы</span><i></i><b>показывал всё, что делает</b></div>
-            <div class="srow srow--lime"><span>Итог</span><b>заменил участок трассы, цена адекватная</b></div>
+            <div class="srow srow--accent"><span>Итог</span><b>заменил участок трассы, цена адекватная</b></div>
           </div>
         </div>
 
@@ -99,7 +99,7 @@
             <div class="srow"><span>Приехал на замену диска сцепления</span><i></i><b>в тот же день</b></div>
             <div class="srow"><span>Попутно нашли критичное по ходовой</span><i></i><b>поменяли сразу</b></div>
             <div class="srow"><span>Мастер объясняет так, чтобы</span><i></i><b>не переделывать</b></div>
-            <div class="srow srow--lime"><span>Итог</span><b>«первоклассный мастер, профессионал»</b></div>
+            <div class="srow srow--accent"><span>Итог</span><b>«первоклассный мастер, профессионал»</b></div>
           </div>
         </div>
 
@@ -111,7 +111,7 @@
             <div class="srow"><span>Служебная ВАЗ 2112, ремонт не из простых</span><i></i><b>приняли в час ночи</b></div>
             <div class="srow"><span>Обломанные болты в блоке двигателя</span><i></i><b>выкрутили</b></div>
             <div class="srow"><span>Плюс ступичный подшипник</span><i></i><b>заменили</b></div>
-            <div class="srow srow--lime"><span>Итог</span><b>меньше чем через сутки — на ходу</b></div>
+            <div class="srow srow--accent"><span>Итог</span><b>меньше чем через сутки — на ходу</b></div>
           </div>
         </div>
       </div>
@@ -177,7 +177,7 @@
           <div class="split-head__text">
             <h2 class="h2">Что делаем <em>чаще всего</em></h2>
             <p class="lead">И в боксе на Октябрьской, и на выезде. Полный список работ — в прайсе и по телефону.</p>
-            <a class="btn-lime btn-lime--ghost" href="#prices">Весь прайс</a>
+            <a class="btn-accent btn-accent--ghost" href="#prices">Весь прайс</a>
           </div>
         </div>
 
@@ -220,7 +220,7 @@
           </div>
           <div class="searchbox reveal">
             <i data-lucide="search"></i>
-            <input type="search" id="plSearch" placeholder="Найти услугу…" aria-label="Поиск по прайсу">
+            <input type="search" id="plSearch" placeholder="Найти услугу" aria-label="Поиск по прайсу">
           </div>
         </div>
 
@@ -248,7 +248,7 @@
         <p class="price-note reveal">Ещё делаем: ГРМ и раскоксовка, амортизаторы, мосты, сцепление, карданные валы, топливная система, автоэлектрика и электроника, фары, промывка инжектора, чистка форсунок, шиномонтаж и выездной шиномонтаж, установка фаркопов и допоборудования, замена масла и ТО.</p>
 
         <div class="price-cta reveal">
-          <a class="btn-lime" href="https://wa.me/79375213165" target="_blank" rel="noopener"><i data-lucide="message-circle"></i> Написать в WhatsApp</a>
+          <a class="btn-accent" href="https://wa.me/79375213165" target="_blank" rel="noopener"><i data-lucide="message-circle"></i> Написать в WhatsApp</a>
           <a class="btn-white" href="tel:+79375213165">+7 (937) 521-31-65</a>
         </div>
       </div>
@@ -314,8 +314,8 @@
           </div>
           <label class="fline"><span>Авто (марка, год)</span><input type="text" id="fCar"></label>
           <label class="fline"><span>Что случилось</span><textarea id="fMsg" rows="3" placeholder="Например: не заводится, стартер щёлкает"></textarea></label>
-          <button class="btn-lime form__submit" type="submit">Отправить — перезвоним <i data-lucide="arrow-right"></i></button>
-          <p class="form__done" id="formDone" hidden>Принято! Перезвоним в ближайшие минуты — сервис работает 24/7.</p>
+          <button class="btn-accent form__submit" type="submit">Отправить — перезвоним <i data-lucide="arrow-right"></i></button>
+          <p class="form__done" id="formDone" hidden>Принято — перезвоним в ближайшие минуты. Сервис работает 24/7</p>
           <p class="form__alt">Или сразу в WhatsApp: <a href="https://wa.me/79375213165" target="_blank" rel="noopener">wa.me/79375213165</a></p>
         </form>
       </div>
